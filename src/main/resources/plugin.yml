@@ -1,0 +1,18 @@
+name: Sushidynamicshop
+version: Beta 0.5.3
+main: mcsushi.dynamicshop.sushidynamicshop.Sushidynamicshop
+api-version: 1.20
+authors: [NogginTime]
+depend: [Vault]
+softdepend: [MMOItems, MythicLib, PlayerPoints]
+
+commands:
+  sushishop:
+    description: Open the dynamic sushi shop GUI
+    usage: /sushishop
+    aliases: [dynamicshop, sshop, ds]
+    permission: sushishop.open
+permissions:
+  sushishop.open:
+    description: Allows opening the sushi shop menu
+    default: true

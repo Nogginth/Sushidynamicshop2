@@ -1,0 +1,31 @@
+inventory:
+  name: '&fDefault Shop'
+  slot: 54 #GUI size 27 36 45 and 54
+  deco: "GREEN_STAINED_GLASS_PANE"
+shopcurrency:
+  type: VAULT # Shop currency support VAULT, EXP, POINTS, CUSTOM(Premium)
+  currency: test01 #Currency ID for premium feature
+IRON_INGOT:
+  source: IRON_INGOT
+  slot: 10
+  base_price: 5.0
+  current_price: 5.0
+  min_price: 2.0
+  max_price: 10.0
+  supply: 0.0
+  demand: 0.0
+  price_change_rate: 0.05
+  buy_enabled: true
+  sell_enabled: true
+MMOITEM_CUTLASS:
+  source: mmoitem:sword:cutlass
+  slot: 11
+  base_price: 50.0
+  current_price: 50.0
+  min_price: 25.0
+  max_price: 75.0
+  supply: 0.0
+  demand: 0.0
+  price_change_rate: 0.1
+  buy_enabled: true
+  sell_enabled: true

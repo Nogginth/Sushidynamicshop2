@@ -1,0 +1,12 @@
+#These settings below this line will activate in the Premium version.
+database:
+  type: "LiteSQL"  # "MySQL" or "LiteSQL"
+  host: "localhost"
+  port: 3306
+  database: "my_custom_currency_db"
+  user: "myUser"
+  password: "myPassword"
+  file: "currency.db"
+
+#Only for Dev debugger
+debug: false

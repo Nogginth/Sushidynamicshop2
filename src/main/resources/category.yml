@@ -1,0 +1,13 @@
+name: '&fDefault Category name'
+slot: 54 #GUI size 27 36 45 and 54
+deco: "PINK_STAINED_GLASS_PANE" #Set material for deco border frame
+
+categories:
+  default:
+    material: IRON_ORE
+    slot: 10
+    shopid: default #file name default.yml
+    name: '&6Ore Shop'
+    lore:
+      - '&fClick to open Ore shop'
+    permission: sushishop.category.default
